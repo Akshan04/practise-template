@@ -1,0 +1,242 @@
+.border{
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 30px;
+   padding: 30px;
+   background-color: black;
+}
+.box{
+    background-color: white;
+    color:black;
+}
+                                                                            
+body{ 
+   font-family: "Montserrat", sans-serif;
+   margin: 0%;
+   
+  
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(226, 227, 221);
+    padding: 15px;
+    position:sticky;
+top: 0px;
+    color: white;
+    z-index: 2;
+   align-items:center;
+}
+.nav a{
+    color: white;
+}
+.hero{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-left: 20px;
+    padding-right:20PX;
+    padding-top: 10px;
+    padding-bottom:20px;
+    position: absolute;
+    width: 93.45%;
+    top: 88px;
+    z-index: 1;
+    justify-content: center;
+}
+.hero a{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    background-color: #E2E3DD;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+   justify-content: center;
+ }
+
+.hero a:hover{
+    color:white;
+    background-color:rgb(51, 6, 174);
+    transition: 1s;
+    
+    
+}
+.hero h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: -20PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero h5{
+    padding-bottom: -30px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif}
+    .hero h5,h3{
+        background-color: none;
+    }
+
+
+.hero-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+.hero-1-img{
+    width: 400px;
+    padding-left: 20px;
+}
+.hero-text{
+    flex: 1;
+}
+.hero-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+.hero-2-text{
+    flex: 1;
+   
+}
+.hero-2-img{
+    width:600px;
+    display: flex;
+
+}
+.hero-3 H2{
+    background-color:#E2E3DD;
+    color:black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+ padding: 15PX;
+   display: flex;
+   justify-content: space-around;
+   gap: 10PX;
+  
+   
+   background-color:#E2E3DD;
+  
+
+}
+.title-a1,.title-a2{
+    text-decoration: none;
+    text-align: end;
+    background-color: none;
+    color: rgb(173, 0, 0);
+}
+.nav a{text-decoration: none;
+font-family: monospace;
+color: black;
+padding: 10px;
+}
+.prog-img img{
+    width:100%;
+    height: 190px;
+    position:relative;
+}
+.prog-img-1{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+}
+.prog-img-2{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top: 50PX;
+    z-index: 1;
+}
+.hero-4{
+   display: flex;
+    gap: 40px;
+}
+.hero-4 img{
+    padding-left: 20px;
+   }
+.hub-themes{
+
+    text-align: left;
+    gap:20px;
+}
+.hero-5 img{
+    width: 400px;
+    height: 200px;
+    padding-right: 20px;
+}
+.hero-5{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+}
+.blog-title{
+    text-align: center;
+}
+.blog-img{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 10px;
+    
+   }
+   .blog-img H4{
+    padding-left: 20px;
+   }
+   
+    .blog-img img{
+        width: 300px;
+    height: 200px;
+    justify-content: center;
+   text-align: center;
+    padding-left: 20px;
+    }
+    .summary{
+        text-align: center;
+    }
+    .summary ul{
+        text-align: left;
+        display: inline-block;
+    }
+    .footer{
+        background-color: royalblue;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    .footer a{
+        color: royalblue;
+        background-color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .footer a:hover{
+        color: white;
+        background-color: black;
+    }
+    .profile img{
+        width:50px;
+        height: 50px;
+        border-radius: 100%;
+        
+        
+    }
+    .profile h4{
+        font-size: 50%;
+    }
+    
